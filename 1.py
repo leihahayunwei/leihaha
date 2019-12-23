@@ -14,3 +14,5 @@ stdin, stdout, stderr = ssh.exec_command('show wir radio')
 print(stdout.read().decode())
 # 关闭连接
 ssh.close()
+
+####
